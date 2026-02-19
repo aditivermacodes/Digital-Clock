@@ -47,7 +47,7 @@ The project focuses on:
 
 ---
 
-📂 Project Structure
+## 📂 Project Structure
 
 ```
 digital-clock/
@@ -59,30 +59,33 @@ digital-clock/
 │── package.json
 ```
 
-<hr>
+---
 
-📦 Installation & Setup
+## 📦 Installation & Setup
 
 ```bash
-git clone "repo-link"
+git clone <your-repo-link>
 cd digital-clock
 npm install
 npm start
+```
 
+## 🎯 Learning Outcome
 
-<hr>
-
-🎯 Learning Outcome <br>
 Through this project, I strengthened my understanding of:
+
 * React component lifecycle
 * Managing time-based events
 * Writing clean and reusable components
 * Improving UI aesthetics with CSS effects
 
-<hr>
+---
 
-📌 Future Improvements <br>
+## 📌 Future Improvements
+
 * Add date display (Day, Month, Year)
 * Add 12-hour / 24-hour toggle
 * Add theme switcher (Light/Dark/Neon)
 * Deploy live version using Vercel or Netlify
+
+---
