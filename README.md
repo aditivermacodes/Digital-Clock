@@ -1,16 +1,88 @@
-# React + Vite
+# 🕒 Digital Clock – React Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive **Digital Clock application** built using React.
+This project demonstrates real-time state updates, React Hooks usage, and clean UI design principles.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📌 Project Overview
 
-## React Compiler
+This application displays the current time and updates automatically every second using JavaScript's Date object and React Hooks.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The project focuses on:
 
-## Expanding the ESLint configuration
+* Real-time rendering
+* Efficient state management
+* Component lifecycle handling
+* Clean and responsive UI styling
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🚀 Features
+
+* ⏱ Real-time digital clock
+* 🔁 Automatic updates every second
+* ⚛ Built using React functional components
+* 🎣 Implemented with `useState` and `useEffect`
+* 🎨 Modern UI with optional neon effect
+* 📱 Responsive design
+
+---
+
+## 🛠 Tech Stack
+
+* **React.js**
+* **JavaScript (ES6+)**
+* **CSS3**
+
+---
+
+## 🧠 Concepts Demonstrated
+
+* State management using `useState`
+* Side effects and interval handling with `useEffect`
+* Component re-rendering
+* Cleanup functions in React
+* CSS styling and visual effects
+
+---
+
+📂 Project Structure
+
+```
+digital-clock/
+│── src/
+│   ├── App.js
+│   ├── Clock.js
+│   ├── App.css
+│── public/
+│── package.json
+```
+
+<hr>
+
+📦 Installation & Setup
+
+```bash
+git clone "repo-link"
+cd digital-clock
+npm install
+npm start
+
+
+<hr>
+
+🎯 Learning Outcome <br>
+Through this project, I strengthened my understanding of:
+* React component lifecycle
+* Managing time-based events
+* Writing clean and reusable components
+* Improving UI aesthetics with CSS effects
+
+<hr>
+
+📌 Future Improvements <br>
+* Add date display (Day, Month, Year)
+* Add 12-hour / 24-hour toggle
+* Add theme switcher (Light/Dark/Neon)
+* Deploy live version using Vercel or Netlify
