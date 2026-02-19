@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background-image: url(assets/backdrop.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.clock-container {
+  backdrop-filter: blur(8px);
+  background: rgba(0, 0, 0, 0.3);
+  padding: 20px 40px;
+  border-radius: 15px;
+}
+
+.clock {
+  font-size: 4rem;
+  font-weight: bold;
+  font-family: monospace;
+  text-align: center;
+  color: #00f7ff;
+
+  text-shadow:
+    0 0 5px #00f7ff,
+    0 0 10px #00f7ff,
+    0 0 20px #00f7ff,
+    0 0 40px #00f7ff,
+    0 0 80px #00f7ff;
+}
